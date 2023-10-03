@@ -7,3 +7,5 @@ console.log(
 console.log("Hello World");
 //Opgave 1.2
 console.log("Hello\nWorld")
+//Opgave 1.3
+console.log("*\n**\n***\n**\n*")
