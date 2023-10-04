@@ -40,3 +40,24 @@ console.log (number += "23")
 console.log (number -= "46")
 console.log (number != "23")
 console.log (number **=2)
+//Opgave 2.1
+let tal = 200; 
+if(tal % 2 == 0) {
+  console.log("The number is even.");
+}
+
+// if the number is odd
+else {
+  console.log("The number is odd.");
+}
+//Opgave 2.2
+let tal2 = 27; 
+if(tal2 % 5 == 0) {
+  console.log("går op i.");
+}
+
+// if the number is odd
+else {
+  console.log("går ik op i.");
+}
+//Opgave 2.3
