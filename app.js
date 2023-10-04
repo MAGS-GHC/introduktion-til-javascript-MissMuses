@@ -9,3 +9,34 @@ console.log("Hello World");
 console.log("Hello\nWorld")
 //Opgave 1.3
 console.log("*\n**\n***\n**\n*")
+//Opgave 1.4
+const ferretsNumber = 2
+console.log (typeof ferretsNumber);
+//Opgave 1.5
+console.log (10-5);
+console.log (25/3);
+console.log (25%3);
+console.log (25%2);
+console.log (3**2);
+//Opgave 1.6
+let tekst1 = ("hello ");
+let tekst2 = ("world!");
+console.log (tekst1+tekst2);
+//Opgave 1.7
+const holdet = 'GF2 Online'; 
+console.log(holdet.length);
+//Opgave 1.8
+let x = Math.floor(Math.random()*100+1)
+console.log(x);
+//Opgave 1.9
+let number = 23;
+console.log(number)
+console.log(number = "23")
+console.log (number == "23")
+console.log (number === "23")
+console.log(number -=23)
+console.log(number += 23)
+console.log (number += "23")
+console.log (number -= "46")
+console.log (number != "23")
+console.log (number **=2)
