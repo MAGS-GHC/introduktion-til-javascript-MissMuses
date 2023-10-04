@@ -61,3 +61,14 @@ else {
   console.log("går ik op i.");
 }
 //Opgave 2.3
+let randomtal = Math.floor(Math.random()*100+1)
+console.log(randomtal);
+
+if(randomtal % 5 == 0) {
+  console.log("går op i.");
+}
+
+// if the number is odd
+else {
+  console.log("går ik op i.");
+}
