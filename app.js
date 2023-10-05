@@ -115,3 +115,39 @@ if (temp <= 0){
 } else if (temp >= 41){
 console.log("Det er meget varmt");
 }
+
+//Opgave 2.6
+let dag = 7;
+if (dag == 1){
+  console.log("Mandag");
+} else if (dag == 2){
+  console.log("Tirsdag");
+} else if (dag == 3){
+  console.log("Onsdag");
+} else if (dag == 4){
+  console.log("Torsdag");
+} else if (dag == 5){
+  console.log("Fredag");
+} else if (dag == 6){
+  console.log("Lørdag");
+} else if (dag == 7){
+  console.log("Søndag");
+} else {
+  console.log("Tallet er ikke en ugedag");
+}
+
+//Opgave 3.1
+
+for (let i = 1; i <= 100; i++) {
+  console.log(i);
+}
+
+//Opgave 3.2
+
+let result = "";
+
+for (let i = 1; i <= 100; i++) {
+  result += i + " ";
+}
+
+console.log(result);
