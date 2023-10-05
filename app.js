@@ -144,10 +144,10 @@ for (let i = 1; i <= 100; i++) {
 
 //Opgave 3.2
 
-let result = "";
-
-for (let i = 1; i <= 100; i++) {
-  result += i + " ";
+for (let i = 0; i <= 100; i++) {
+  console.log(i+" " + (i+1) + " " + (i+2) );
 }
 
-console.log(result);
+//Opgave 3.3
+
+
