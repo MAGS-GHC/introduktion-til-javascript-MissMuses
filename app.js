@@ -72,3 +72,11 @@ if(randomtal % 5 == 0) {
 else {
   console.log("går ik op i.");
 }
+//Opgave 2.4
+const num1 = 25;
+const num2 = 33;
+const num3 = 12;
+
+const highestNumber = Math.max(num1, num2, num3);
+
+console.log(`The highest number is: ${highestNumber}`);
