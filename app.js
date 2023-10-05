@@ -80,3 +80,38 @@ const num3 = 12;
 const highestNumber = Math.max(num1, num2, num3);
 
 console.log(`The highest number is: ${highestNumber}`);
+
+// Two different ways to do this
+
+let a = 25;
+
+let b = 33;
+
+let c = 12;
+
+ 
+
+if(a > b && a  > c){
+
+  console.log("a er størst");
+} else if (b > a && b > c){
+  console.log("b er størst");
+} else {console.log("c er størst");
+}   
+
+
+//Opgave 2.5
+let temp = 40;
+if (temp <= 0){
+  console.log("Det er frostvejr");
+} else if (temp >= 1 && temp <= 10){
+  console.log("Det er meget koldt");
+} else if (temp >= 11 && temp <= 20){
+  console.log("Det er koldt");
+} else if (temp >= 21 && temp <= 30){
+    console.log("Det er normalt vejr");
+} else if (temp >= 31 && temp <= 40){
+  console.log("Det er varmt");
+} else if (temp >= 41){
+console.log("Det er meget varmt");
+}
